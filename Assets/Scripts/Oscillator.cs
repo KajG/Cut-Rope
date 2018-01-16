@@ -9,7 +9,6 @@ public class Oscillator : MonoBehaviour {
     float speed;
     float width;
     float height;
-	// Use this for initialization
 	void Start () {
 		speed = 1;
 		width = 1.4f;
@@ -17,10 +16,8 @@ public class Oscillator : MonoBehaviour {
 		movement = GetComponent<Movement> ();
 	}
 	
-	// Update is called once per frame
 	void Update () {
         timeCounter += Time.deltaTime;
-
         float x = Mathf.Cos(timeCounter)*width;
         float y = Mathf.Sin(timeCounter)*height;
         float z = 0;

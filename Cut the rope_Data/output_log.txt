@@ -1,25 +1,36 @@
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Initialize engine version: 5.6.4f1 (ac7086b8d112)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 830M      (ID=0x1340)
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
     Vendor:   NVIDIA
-    VRAM:     1972 MB
-    Driver:   9.18.13.3325
+    VRAM:     2015 MB
+    Driver:   23.21.13.8813
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.028 seconds
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Plasticheka\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.032 seconds
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Beest\Documents\GitHub\Cut-Rope\Cut the rope_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.970524 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.733338 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 578.
+Total: 0.293753 ms (FindLiveObjects: 0.035297 ms CreateObjectMapping: 0.027420 ms MarkObjects: 0.226660 ms  DeleteObjects: 0.004083 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3294 -> priority: 1 
+  Thread -> id: 2d74 -> priority: 1 
+  Thread -> id: dd4 -> priority: 1 
+  Thread -> id: dc -> priority: 1 

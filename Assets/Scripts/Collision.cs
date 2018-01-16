@@ -4,7 +4,9 @@ using System.Collections;
 public class Collision : MonoBehaviour {
 
 	public ParticleSystem particles;
+	private TimerController timeController;
 	public GameObject particles2;
+	private WinText winText;
 	bool timer;
 	float timerFloat = 0.3f;
 	float timerFloat2 = 0.3f;
@@ -14,24 +16,13 @@ public class Collision : MonoBehaviour {
 
 	void Start ()
     {
-		//particles = particles.GetComponent<ParticleSystem> ();
+		winText = Camera.main.GetComponent<WinText> ();
 		offCenter = new Vector3(-0.44f, 0.34f, this.transform.position.z);
+		timeController = GameObject.Find ("Canvas").GetComponent<TimerController> ();
 		starCount = starCount.GetComponent<StarsController> ();
 		starPickup = GetComponent<AudioSource> ();
 	}
-	
 
-	void Update ()
-    {
-		/*if(timer)
-		{
-			timerFloat -= Time.deltaTime;
-		}
-		if(timerFloat <= 0)
-		{
-			Destroy (particles);
-		}*/
-	}
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Star")
@@ -43,10 +34,16 @@ public class Collision : MonoBehaviour {
 			ParticleSystem particleEffect = (ParticleSystem)Instantiate (particles, other.gameObject.transform.position - offCenter, Quaternion.identity);
 			Destroy (particleEffect, timerFloat);
 			Destroy (particleEffect2, timerFloat2);
-
 			timer = true;
         }
     }
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "Omnom") {
+			winText.Win ();
+			timeController.Restart ();
+		}
+	}
 
 }
 

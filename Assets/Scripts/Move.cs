@@ -9,8 +9,6 @@ public class Move : MonoBehaviour {
 	void Start () {
         goUp = new Vector3(0, 0.01f,0);
 	}
-	
-	
 	void Update () {
         if (Input.GetKey(KeyCode.Space))
         {
